@@ -43,26 +43,6 @@ Check out the live version here: [Wanderlust Website](https://wanderlust-website
 
 ---
 
-## 📂 Folder Structure  
-
-Wanderlust/
-│── views/ # EJS templates
-│ ├── listings/ # Listing pages
-│ ├── users/ # Auth pages
-│ └── layouts/ # Layout templates
-│
-│── public/ # Static files (CSS, JS, images)
-│── routes/ # Express route handlers
-│── models/ # MongoDB models
-│── utils/ # Error handling, middleware
-│── app.js # Main application entry
-│── package.json # Dependencies
-│── .env # Environment variables
-
----
-
----
-
 ## ⚡ Installation  
 
 1. **Clone the repository**  
