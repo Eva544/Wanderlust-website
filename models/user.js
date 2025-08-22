@@ -9,6 +9,13 @@ const userSchema = new Schema({
     }
 });
 
-userSchema.plugin(passportLocalMongoose);
+userSchema.plugin(passportLocalMongoose, {
+    passwordValidator: function(password, cb) {
+        if (password.length < 8) {
+            return cb("Password must be at least 8 characters long");
+        }
+        return cb();
+    }
+});
 
 module.exports = mongoose.model("User", userSchema);
