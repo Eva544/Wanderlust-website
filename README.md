@@ -80,20 +80,20 @@ http://localhost:8080
 
 ## 🚀 Future Improvements
 
-- [ ] Implement **Booking System** for stays
+- Implement Booking System for stays
 
-- [ ] Add **payment gateway** (Stripe/PayPal)
+- Add payment gateway (Stripe/PayPal)
 
-- [ ] Enable **wishlist/favorites** feature
+- Enable wishlist/favorites feature
 
-- [ ] Implement **real-time chat** between hosts & guests
+- Implement real-time chat between hosts & guests
 
-- [ ] Enhance UI with **React** frontend
+- Enhance UI with React frontend
 
 ---
 
 ## 👨‍💻 Author  
 
-**Evangelin Anthu Mary**  
+Evangelin Anthu Mary  
 
 
