@@ -55,7 +55,7 @@ Check out the live version here: [Wanderlust Website](https://wanderlust-website
 ```bash
 npm install
 
-3. **Setup environment variables**
+3. Setup environment variables
 Create a .env file in the root folder and add:
 
 ```env
@@ -63,7 +63,7 @@ MONGO_URI=your_mongodb_connection_string
 SECRET=your_session_secret
 PORT=8080
 
-4. **Run the application**
+4. Run the application
 
 ```bash
 node app.js
@@ -72,7 +72,7 @@ or (if nodemon installed)
 ```bash
 nodemon app.js
 
-5. **Visit on Browser**
+5. Visit on Browser
 ```arduino
 http://localhost:8080
 
@@ -80,15 +80,15 @@ http://localhost:8080
 
 ## 🚀 Future Improvements
 
-Implement **Booking System** for stays
+- [ ] Implement **Booking System** for stays
 
-Add **payment gateway** (Stripe/PayPal)
+- [ ] Add **payment gateway** (Stripe/PayPal)
 
-Enable **wishlist/favorites** feature
+- [ ] Enable **wishlist/favorites** feature
 
-Implement **real-time chat** between hosts & guests
+- [ ] Implement **real-time chat** between hosts & guests
 
-Enhance UI with **React** frontend
+- [ ] Enhance UI with **React** frontend
 
 ---
 
